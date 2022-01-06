@@ -1,0 +1,16 @@
+Quando formos trabalhar com repositório local:
+
+1. Navegar até a pasta correta: Botão direito escolhendo a opção Git Bash Here
+
+2. Se eu quiser clonar um repositório existente, vou até o meu Git na WEB, copio o endereço do HTTPS do repositório e:
+Git clone https://github.com/abrazao/desafio-github-repositor.git
+
+3. Se eu fizer algo, criar um arquivo dentro da pasta do repositório ou fizer qualquer alteração, verei através do comando Git status a ocorrência de alterações e a necessidade de Commit
+
+4. Para comitar as alterações: git add . (ele comita tudo novo) ou git --a .
+
+5. Para comitar de fato no repositório remoto, utilizar o comando:
+git commit -m "Mensagem"
+
+6. Para atualizar de fato no remoto:
+git push origin main
